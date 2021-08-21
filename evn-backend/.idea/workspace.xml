@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e515dcd-fce4-4cf6-a56b-ca9654d23b4f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YIOpg3AoXJK9SUAKkV9FoJ7Ess" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.fis" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fis.business.dto" />
+      <recent name="com.fis.evn.business.controller" />
+      <recent name="com.fis.evn.business.config" />
+      <recent name="com.fis.fw.common.config" />
+      <recent name="com.fis.fw.common.filter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\EVN\evn-backend\business-api\src\main\java\com\fis\evn\business\controller" />
+      <recent name="D:\Workspace\EVN\evn-backend\business-api\src\main\java\com\fis\evn\business" />
+      <recent name="D:\Workspace\EVN\evn-backend\business-api\src\main\resources" />
+      <recent name="D:\Workspace\EVN\evn-backend\business-api\src\main\java\com\fis\business" />
+      <recent name="D:\Workspace\SPP\vks-backend\fis-core\src\main\java\com\fis\fw\common\constants" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="open gateway" />
+      <command value="open report-frontend" />
+      <command value="open report-backend" />
+      <command value="open dthgd-tool" />
+      <command value="open ChatBotWeb" />
+      <command value="open admin-fontend" />
+      <command value="open dthgd-backend" />
+      <command value="open D:\Workspace\DTHGD\branches\dthgd-backend" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BusinessApplication">
+    <configuration name="BusinessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="business-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fis.evn.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fis.evn.business.BusinessApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fis.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VksApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="vks-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fis.VksApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VksApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="vks-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fis.vks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fis.vks.VksApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BusinessApplication" />
+        <item itemvalue="Spring Boot.BusinessApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e515dcd-fce4-4cf6-a56b-ca9654d23b4f" name="Default Changelist" comment="" />
+      <created>1582626825879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582626825879</updated>
+      <workItem from="1582626829047" duration="2069000" />
+      <workItem from="1584614618007" duration="18837000" />
+      <workItem from="1584763405839" duration="10491000" />
+      <workItem from="1584957216622" duration="6105000" />
+      <workItem from="1585015759473" duration="399000" />
+      <workItem from="1586414835919" duration="4548000" />
+      <workItem from="1586489408963" duration="12000" />
+      <workItem from="1586493853804" duration="8760000" />
+      <workItem from="1587629415973" duration="26000" />
+      <workItem from="1588574261273" duration="836000" />
+      <workItem from="1588738816544" duration="138000" />
+      <workItem from="1590137990665" duration="2155000" />
+      <workItem from="1590142137009" duration="32000" />
+      <workItem from="1590471809075" duration="1971000" />
+      <workItem from="1590486803799" duration="19000" />
+      <workItem from="1590656970199" duration="1062000" />
+      <workItem from="1590745085833" duration="85000" />
+      <workItem from="1591265923535" duration="4589000" />
+      <workItem from="1591419110141" duration="893000" />
+      <workItem from="1591428351513" duration="699000" />
+      <workItem from="1591602727653" duration="3115000" />
+      <workItem from="1591671599767" duration="70000" />
+      <workItem from="1591759828400" duration="3886000" />
+      <workItem from="1591858218419" duration="7248000" />
+      <workItem from="1592011616969" duration="1527000" />
+      <workItem from="1592013708433" duration="7189000" />
+      <workItem from="1592034132560" duration="6061000" />
+      <workItem from="1592216255481" duration="96000" />
+      <workItem from="1592239554466" duration="20894000" />
+      <workItem from="1592923533557" duration="3273000" />
+      <workItem from="1593357387755" duration="42852000" />
+      <workItem from="1594291115401" duration="3263000" />
+      <workItem from="1595495237946" duration="1853000" />
+      <workItem from="1595581053023" duration="3524000" />
+      <workItem from="1595986683396" duration="2374000" />
+      <workItem from="1596187725025" duration="1397000" />
+      <workItem from="1596774627144" duration="21657000" />
+      <workItem from="1597479017416" duration="4825000" />
+      <workItem from="1597625747822" duration="10669000" />
+      <workItem from="1597825552831" duration="3750000" />
+      <workItem from="1599444990653" duration="1186000" />
+      <workItem from="1599446481169" duration="590000" />
+      <workItem from="1599447141974" duration="279000" />
+      <workItem from="1599447454100" duration="14323000" />
+      <workItem from="1599468678364" duration="25850000" />
+      <workItem from="1599558196182" duration="10605000" />
+      <workItem from="1599701057438" duration="6478000" />
+      <workItem from="1600139886261" duration="30913000" />
+      <workItem from="1600314075980" duration="76000" />
+      <workItem from="1609745659979" duration="1311000" />
+      <workItem from="1609747209825" duration="10773000" />
+      <workItem from="1609828372641" duration="6826000" />
+      <workItem from="1609836811905" duration="2338000" />
+      <workItem from="1620624740282" duration="697000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="30" key="#Project_Structure" timestamp="1620625269749">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="30" key="#Project_Structure/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1620625269749" />
+    <state x="413" y="119" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620625359536">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="119" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1620625359536" />
+    <state x="371" y="125" width="624" height="488" key="find.popup" timestamp="1620625473271">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="371" y="125" width="624" height="488" key="find.popup/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1620625473271" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dthgd-core/src/main/java/com/fis/fw/core/dao/impl/LogSessionDaoImpl.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api-gateway/src/main/java/com/fis/gateway/filter/AuthenticationAndAuthorizationFilterPost.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dthgd-core/src/main/java/com/fis/fw/common/filter/LoggingFilter.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.6.RELEASE/spring-security-config-5.1.6.RELEASE.jar!/org/springframework/security/config/annotation/authentication/configuration/AuthenticationConfiguration.class</url>
+          <line>225</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.6.RELEASE/spring-security-config-5.1.6.RELEASE.jar!/org/springframework/security/config/method/GlobalMethodSecurityBeanDefinitionParser.class</url>
+          <line>406</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/identity-api/src/main/java/com/fis/identity/service/impl/AuthenServiceImpl.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/identity-api/src/main/java/com/fis/identity/service/impl/AdminUserServiceImpl.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
