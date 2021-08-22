@@ -28,7 +28,7 @@ CREATE TABLE accounts
 (
     aId NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY NOT NULL,
     username VARCHAR2(20) NOT NULL,
-    password VARCHAR2(20) NOT NULL,
+    password VARCHAR2(255) NOT NULL,
     email VARCHAR(50) NOT NULL
 );
 
@@ -56,8 +56,8 @@ VALUES ('Lionel Messi', 'Arghentina', '24-JUN-1987', 3, 2, 71000000, 30, 'messi.
 INSERT INTO players (pname, nation, born, rate, cId, sal, pNum, avt)
 VALUES ('Frenkie de Jong', 'Netherlands', '12-MAY-1997', 2, 1, 10000000, 21, 'dejong.jpg');
 
-INSERT INTO accounts (username, password, email)
-VALUES ('tuha21', '123', 'tuha1021@gmail.com');
+--INSERT INTO accounts (username, password, email)
+--VALUES ('tuha21', '123', 'tuha1021@gmail.com');
 
 INSERT INTO roles (rName)
 VALUEs ('ROLE_ADMIN');
@@ -66,7 +66,8 @@ INSERT INTO authorities (aId, rId)
 VALUES (1, 1);
 
 select * from players where PID = 5;
-select * from roles where RID = 1 
+select * from roles where RID = 1 ;
+select * from accounts
 
 
 

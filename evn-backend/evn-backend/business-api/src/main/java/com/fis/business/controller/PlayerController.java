@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/player")
+@RequestMapping("/admin//player")
 public class PlayerController extends GenericController<Player, Integer> {
 
     @Autowired
