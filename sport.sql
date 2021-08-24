@@ -11,17 +11,18 @@ CREATE TABLE clubs
     logo VARCHAR2(20) NOT NULL
 );
 
-create TABLE players
+CREATE TABLE players
 (
     pId NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY NOT NULL,
-    pName VARCHAR2(50) NOT NULL,
-    nation VARCHAR2(20) NOT NULL,
+    pName VARCHAR2(255) NOT NULL,
+    nation VARCHAR2(255) NOT NULL,
     born DATE NOT NULL,
     rate NUMBER NOT NULL,
     cId NUMBER NOT NULL,
     sal NUMBER NOT NULL,
     pNum NUMBER NOT NULL,
-    avt VARCHAR2(50)
+    avt VARCHAR2(255),
+    status NUMBER NOT NULL
 );
 
 CREATE TABLE accounts
@@ -50,8 +51,12 @@ VALUES ('Barcelona', 'Camp Nou', 'Spain', 'Ronald Koeman', 'Joan Laporta', 'Joan
 INSERT INTO clubs (cName, std, loc, mgr, pres, fder, fded, logo)
 VALUES ('Paris Saint-Germain', 'Parc des Princes', 'FRANCE', 'Mauricio Pochettino', 'Guy Crescent', 'Nasser Al-Khelaifi', '12-AUG-1970', 'psg.jpg');
 
-INSERT INTO players (pname, nation, born, rate, cId, sal, pNum, avt)
-VALUES ('Lionel Messi', 'Arghentina', '24-JUN-1987', 3, 2, 71000000, 30, 'messi.jpg');
+INSERT INTO clubs (cName, std, loc, mgr, pres, fder, fded, logo)
+VALUES ('Liverpool FC', 'Anfield', 'England', 'Jurgen Klopp', 'Tom Werner', 'Joan Gamper', '03-JUN-1892', 'liv.jpg');
+
+
+INSERT INTO players (pname, nation, born, rate, cId, sal, pNum, avt, status)
+VALUES ('Lionel Messi', 'Arghentina', '24-JUN-1987', 3, 2, 71000000, 30, 'messi.jpg', 1);
 
 INSERT INTO players (pname, nation, born, rate, cId, sal, pNum, avt)
 VALUES ('Frenkie de Jong', 'Netherlands', '12-MAY-1997', 2, 1, 10000000, 21, 'dejong.jpg');
@@ -65,7 +70,7 @@ VALUEs ('ROLE_ADMIN');
 INSERT INTO authorities (aId, rId)
 VALUES (1, 1);
 
-select * from players where PID = 5;
+select * from players where PID = 2;
 select * from roles where RID = 1 ;
 select * from accounts
 

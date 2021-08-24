@@ -40,6 +40,9 @@ public class Player {
     @Column(name = "AVT")
     private String avt;
 
+    @Column(name = "STATUS")
+    private Integer status;
+
     @ManyToOne
     @JoinColumn(name = "CID")
     private Club club;
