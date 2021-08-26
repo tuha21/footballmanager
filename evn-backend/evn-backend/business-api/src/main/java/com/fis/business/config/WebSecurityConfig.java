@@ -82,7 +82,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authorizeRequests()
-                .antMatchers("/admin/**").hasRole("ADMIN")
+                .antMatchers("/**/update", "/**/create").hasRole("ADMIN")
+                .antMatchers("/admin/**").authenticated()
                 .antMatchers("/login").permitAll()
                 .and()
                 //disable page caching

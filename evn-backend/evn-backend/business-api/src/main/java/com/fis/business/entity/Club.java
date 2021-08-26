@@ -33,6 +33,9 @@ public class Club {
     @Column(name = "MGR")
     private String mgr;
 
+    @Column(name = "PRES")
+    private String pres;
+
     @Column(name = "FDER")
     private String fDer;
 
